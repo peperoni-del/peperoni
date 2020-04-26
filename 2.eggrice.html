@@ -4,21 +4,52 @@
   <title>Egg Rice Recipe</title>
   <meta charset="utf-8">
   <style>
-    a{
-      color: gray;
-      border:2px; blue;
+  h1{
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 3px solid gray;
+    margin: 0;
+    padding: 20px;
+  }
+  ul{
+    border-right:3px solid gray;
+    width:230px;
+    margin: 0px;
+    padding: 40px;
+  }
+#grid{
+  display: grid;
+  grid-template-columns: 320px 1fr;
+}
+#at{
+  padding-left: 10px;
+}
+@media(max-width:800px) {
+  #grid{
+    display:block;
     }
-
+  #grid ul{
+    border-right: none;
+  }
+  h1{
+    border-bottom:none;
+  }
+  ul{
+    padding-right:1000px;
+    border-bottom: 3px solid gray;
+  }
+}
   </style>
 </head>
 <body>
   <h1>EGGRICE<a href=""></a></h1>
+  <div id="grid">
   <ul>
-    <li><strong>두번째. 요리과정 YEAH<strong></li>
-  </ul>
-      <ul>
+        <li><strong>두번째. 요리과정 YEAH<strong></li>
+          <br>
         <li><strong>Developer: peperoni 페페로니<strong></li>
-        </ul>
+  </ul>
+        <div id="at">
     <p><strong>자 이제 여기서는 요리 방법에 대해 소개할게.</strong></p>
     <p>일단 계란볶음밥은 누구나 할 수 있는 간단한 레시피야. 그리고 배고플때 먹으면 생각보다 맛있지</p>
     <p><strong>자 그럼 바로 레시피를 보러 갈까?</strong></p>
@@ -38,9 +69,9 @@
     <p>이제 밥먹을 그릇에 밥을 먹을만큼 담아줘</p>
     <p><strong>이제 아까 요리한 계란후라이를 밥 위에 올려줘</p></strong>
     <p><strong><u>이제 마지막으로 양조간장과 참기름을 둘러주면 끝!</u></strong></p>
-    <h1><p>반숙은 노른자를 터트려 먹으면 맛있고 완숙은 노른자를 먹는맛이 맛있지 그럼 여기까지! 이제 끝맺음으로 가자!</p><h1>
-      <p><strong><a href="3.eggrice.html" title="끝맺음페이지로" target="_blank">끝맺음 페이지로 가기</a></strong></p>
-      <p><strong>지금 알 수 없는 오류씨가 나타나서 홈버튼이 삭제된상황입니다
-         번거로우시더라도 뒤로가기 버튼을 눌러주세요</p></strong>
+    <h2><p>반숙은 노른자를 터트려 먹으면 맛있고 완숙은 노른자를 먹는맛이 맛있지 그럼 여기까지! 이제 홈이나 끝맺음으로 가자!</p><h2>
+      <h2><strong><u><a href="index.html" title="돌아가는 버튼">홈으로 돌아가기</u></strong><h2>
+      <p><strong><a href="3.eggrice.html" title="끝맺음페이지로">끝맺음 페이지로 가기</a></strong></p>
+    </div>
 </body>
 </html>

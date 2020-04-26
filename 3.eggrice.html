@@ -3,15 +3,54 @@
 <head>
   <title>끝맺음</title>
   <meta charset="utf-8">
+  <style>
+  h1{
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 3px solid gray;
+    margin: 0;
+    padding: 20px;
+  }
+  ul{
+    border-right:3px solid gray;
+    width:230px;
+    margin: 0px;
+    padding: 40px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 320px 1fr;
+  }
+  #at{
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  @media(max-width:800px) {
+    #grid{
+      display:block;
+      }
+    #grid ul{
+      border-right: none;
+    }
+    h1{
+      border-bottom:none;
+    }
+    ul{
+      padding-right:1000px;
+      border-bottom: 3px solid gray;
+    }
+  }
+  </style>
 </head>
 <body>
   <h1>EGGRICE<a href=""></a></h1>
+  <div id="grid">
   <ul>
-    <li><strong>끝맺음 YEAH<strong></li>
-  </ul>
-      <ul>
+        <li><strong>끝맺음 YEAH<strong></li>
+          <br>
         <li><strong>Developer: peperoni 페페로니<strong></li>
-        </ul>
+  </ul>
+  <div id="at">
         <p><strong>자 이제 계란밥 레시피를 다 봤어 어때? 이제 너도 계란밥을 할 수 있겠지?<strong><p>
         <p><strong>그럼 화이팅하고 이 사이트를 만들면서 느낀점은</p></strong>
         <p><strong>처음엔 힘들지만 꿀잼이네</strong></p>
@@ -19,7 +58,9 @@
         (나도 HTML코딩은 이게 처음이라서 좀 미숙하긴 하네 ㅎ)
         <p><img src="roob.png" width="1000" border:2px; red;></p>
         <br>
-        <strong>이런 이미지들이 한 5~6장들은 더 있는데 넣기 귀찮아서 여기까지 할게 그럼 다음에 봐!</strong>
- 로비로 가고싶으면 뒤로돌아가기 버튼을 눌러주세요 (알수없는 오류씨가 나타나서 ;;)
+        그리고 많은 시간이 지나 CSS를 하게된 지금 이 코드들은 미개할 뿐이다.
+        <br>
+        <h2><strong><u><a href="index.html" title="돌아가는 버튼">홈으로 돌아가기</u></strong><h2>
+  </div>
 </body>
 </html>
